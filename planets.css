@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Input*/
+
+.input_container {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+#input_item {
+    display: flex;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+
+/*Planets Section*/
+
+.planets_container {
+    height: 50%;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#planets_container_item_mars {
+    width: 50vh;
+    height: 50vh;
+    background-image: url(https://space-facts.com/wp-content/uploads/mars.jpg);
+    background-position:center;
+}
+#planets_container_item_moon{
+    width: 50vh;
+    height: 50vh;
+    background-image: url(https://i.pinimg.com/originals/a4/47/db/a447db3032a7c3913d742482bc0dbf1d.jpg);
+    background-position:center;
+}
+#planets_container_item_jupiter{
+    width: 50vh;
+    height: 50vh;
+    background-image: url(https://dam.ngenespanol.com/wp-content/uploads/2019/08/jupiter-meteorito.jpg);
+    background-position:center;
+}
+
+
+
+footer {
+    align-self: center;
+    justify-self: center;
+}
+
+.Result {
+    align-self: center;
+    margin-bottom: 10vh;
+}
