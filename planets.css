@@ -61,21 +61,31 @@ body {
 }
 
 #planets_container_item_mars {
+    font-size: large;
     width: 50vh;
     height: 50vh;
     background-image: url(https://space-facts.com/wp-content/uploads/mars.jpg);
     background-position:center;
 }
 #planets_container_item_moon{
+    font-size: large;
     width: 50vh;
     height: 50vh;
     background-image: url(https://i.pinimg.com/originals/a4/47/db/a447db3032a7c3913d742482bc0dbf1d.jpg);
     background-position:center;
 }
 #planets_container_item_jupiter{
+    font-size: large;
     width: 50vh;
     height: 50vh;
     background-image: url(https://dam.ngenespanol.com/wp-content/uploads/2019/08/jupiter-meteorito.jpg);
+    background-position:center;
+}
+#planets_container_item_titan{
+    font-size: large;
+    width: 50vh;
+    height: 50vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Titan_multi_spectral_overlay.jpg);
     background-position:center;
 }
 
